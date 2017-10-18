@@ -16,7 +16,7 @@
 		<dependency>
 		    <groupId>io.netty</groupId>
 		    <artifactId>netty-all</artifactId>
-		    <version>4.1.16.Final</version>
+		    <version>5.0.0.Alpha1</version>
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
@@ -25,6 +25,13 @@
 		    <artifactId>lombok</artifactId>
 		    <version>1.16.18</version>
 		    <scope>provided</scope>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+		<dependency>
+		    <groupId>com.alibaba</groupId>
+		    <artifactId>fastjson</artifactId>
+		    <version>1.2.39</version>
 		</dependency>
 	</dependencies>
 	
