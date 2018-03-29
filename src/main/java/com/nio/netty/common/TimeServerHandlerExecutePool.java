@@ -18,7 +18,7 @@ public class TimeServerHandlerExecutePool {
     private ExecutorService executor;
     
     public TimeServerHandlerExecutePool(int maxPoolSize, int queueSize) {
-        executor = new ThreadPoolExecutor(Runtime.getRuntime().availableProcessors(), maxPoolSize, 120l, TimeUnit.SECONDS, new ArrayBlockingQueue<>(queueSize));
+//        executor = new ThreadPoolExecutor(Runtime.getRuntime().availableProcessors(), maxPoolSize, 120l, TimeUnit.SECONDS, new ArrayBlockingQueue<>(queueSize));
     }
     
     public void execute(Runnable task) {
