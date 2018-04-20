@@ -45,7 +45,7 @@ public class NIOTimeServer {
         
         try {
             while(!isStop) {
-              //在selector轮询"活跃"的channel
+                //在selector轮询"活跃"的channel
                 selector.select();
                 //准备就绪的channel
                 Set<SelectionKey> selectedKeys = selector.selectedKeys();
