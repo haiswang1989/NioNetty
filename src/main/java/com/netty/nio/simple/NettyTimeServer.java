@@ -37,6 +37,7 @@ public class NettyTimeServer {
         
         try {
             bootstrap = new ServerBootstrap();
+            
             bootstrap.group(bossGroup, workerGroup)
                 .channel(NioServerSocketChannel.class) //设置创建的Channel为NioServerSocketChannel,对用于JDK NIO类库中的ServerSocketChannel
                 .option(ChannelOption.SO_BACKLOG, 1024) //设置TCP的参数
